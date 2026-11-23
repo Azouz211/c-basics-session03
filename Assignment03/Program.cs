@@ -138,13 +138,24 @@ namespace Assignment03
 
             #region Question 13
 
-            string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
-            int i =0;
-            while (i < books.Length)
+            //string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            //int i =0;
+            //while (i < books.Length)
+            //{
+            //    Console.WriteLine(books[i]);
+            //    i++;
+            //}
+
+            #endregion
+
+            #region Question 14
+
+            int i = 0;
+            do
             {
-                Console.WriteLine(books[i]);
+                Console.WriteLine("Checking book...");
                 i++;
-            }
+            } while (i < 3);
 
             #endregion
 
