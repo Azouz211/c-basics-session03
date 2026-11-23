@@ -10,6 +10,16 @@
             //Console.WriteLine(title);
             //Console.WriteLine(UpperTitle);
             #endregion
+
+            #region Question 2
+
+            string name1 = "Clean Code";
+            string name2 = "Clean Code";
+            bool equal  = ReferenceEquals(name1, name2);
+            Console.WriteLine(equal);
+
+
+            #endregion
         }
     }
 }
