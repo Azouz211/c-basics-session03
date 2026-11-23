@@ -189,14 +189,30 @@ namespace Assignment03
 
             #region Question 17 
 
-            string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
-            for (int i = 0; i < books.Length; i++)
+            //string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            //for (int i = 0; i < books.Length; i++)
+            //{
+            //    if (books[i] == "The Pragmatic Programmer")
+            //        continue;
+            //    else
+            //        Console.WriteLine(books[i]);
+            //}
+
+            #endregion
+
+            #region Question 18 
+            string[] books = {"Clean Code", "The Pragmatic Programmer", "Refactoring"};
+            static string PrintFirstBook(string[] books)
             {
-                if (books[i] == "The Pragmatic Programmer")
-                    continue;
-                else
-                    Console.WriteLine(books[i]);
+                if (books == null || books.Length == 0)
+                {
+                    return "No books available";
+                }
+
+                return books[0];
             }
+            string Firstbook = PrintFirstBook(books);
+            Console.WriteLine(Firstbook);
 
             #endregion
 
