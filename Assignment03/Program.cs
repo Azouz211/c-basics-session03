@@ -171,18 +171,31 @@ namespace Assignment03
 
             #region Question 16 
 
+            //string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            //for (int i = 0; i < books.Length; i++)
+            //{
+            //    if (books[i] == "Refactoring")
+            //    {
+            //        Console.WriteLine("Found Refactoring");
+            //        break;
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine(books[i]);
+            //    }
+            //}
+
+            #endregion
+
+            #region Question 17 
+
             string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
             for (int i = 0; i < books.Length; i++)
             {
-                if (books[i] == "Refactoring")
-                {
-                    Console.WriteLine("Found Refactoring");
-                    break;
-                }
+                if (books[i] == "The Pragmatic Programmer")
+                    continue;
                 else
-                {
                     Console.WriteLine(books[i]);
-                }
             }
 
             #endregion
