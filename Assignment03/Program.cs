@@ -1,4 +1,6 @@
-﻿namespace Assignment03
+﻿using System.Text;
+
+namespace Assignment03
 {
     internal class Program
     {
@@ -13,11 +15,21 @@
 
             #region Question 2
 
-            string name1 = "Clean Code";
-            string name2 = "Clean Code";
-            bool equal  = ReferenceEquals(name1, name2);
-            Console.WriteLine(equal);
+            //string name1 = "Clean Code";
+            //string name2 = "Clean Code";
+            //bool equal  = ReferenceEquals(name1, name2);
+            //Console.WriteLine(equal);
 
+
+            #endregion
+
+            #region Question 3
+
+            StringBuilder sb = new StringBuilder();
+            sb.Append("Book List");
+            sb.Append(" - Updated");
+
+            Console.WriteLine(sb);
 
             #endregion
         }
