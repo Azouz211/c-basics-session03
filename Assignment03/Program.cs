@@ -25,9 +25,21 @@ namespace Assignment03
 
             #region Question 3
 
+            //StringBuilder sb = new StringBuilder();
+            //sb.Append("Book List");
+            //sb.Append(" - Updated");
+
+            //Console.WriteLine(sb);
+
+            #endregion
+
+            #region Question 4 
+
             StringBuilder sb = new StringBuilder();
             sb.Append("Book List");
             sb.Append(" - Updated");
+
+            sb.Replace("Book List", "Library");
 
             Console.WriteLine(sb);
 
