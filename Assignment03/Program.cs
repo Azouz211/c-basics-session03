@@ -1,4 +1,5 @@
 ﻿using System.Text;
+using System.Threading.Channels;
 
 namespace Assignment03
 {
@@ -102,21 +103,29 @@ namespace Assignment03
 
             #region Question 10
 
-            string Title = "Refactoring";
-            switch (Title)
-            {
-                case "Clean Code":
-                    Console.WriteLine("Great choice!");
-                    break;
-                case "Refactoring":
-                    Console.WriteLine("Nice pick!");
-                    break;
+            //string Title = "Refactoring";
+            //switch (Title)
+            //{
+            //    case "Clean Code":
+            //        Console.WriteLine("Great choice!");
+            //        break;
+            //    case "Refactoring":
+            //        Console.WriteLine("Nice pick!");
+            //        break;
 
-                default:
-                    Console.WriteLine("Never heard of it");
-                    break;
-            }
+            //    default:
+            //        Console.WriteLine("Never heard of it");
+            //        break;
+
             #endregion
+
+            #region Question 11 
+
+            int page = 464;
+            string SizeLabel = page > 300 ? "Long Book" : "Short Book";
+            Console.WriteLine(SizeLabel);
+            #endregion
+
 
         }
     }
