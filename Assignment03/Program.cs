@@ -77,7 +77,7 @@ namespace Assignment03
 
             //int Pages = 300;
             //if ( Pages > 300)
-           
+
             //    Console.WriteLine("Long Book");
             //else if 
             //    (Pages < 300)
@@ -92,13 +92,32 @@ namespace Assignment03
 
             #region Question 9
 
-            int Pages = 464;
-            bool IsAvailable = true;
-            if (Pages > 300 && IsAvailable)
-                Console.WriteLine("Long Book and Available");
-           
+            //int Pages = 464;
+            //bool IsAvailable = true;
+            //if (Pages > 300 && IsAvailable)
+            //    Console.WriteLine("Long Book and Available");
+
 
             #endregion
+
+            #region Question 10
+
+            string Title = "Refactoring";
+            switch (Title)
+            {
+                case "Clean Code":
+                    Console.WriteLine("Great choice!");
+                    break;
+                case "Refactoring":
+                    Console.WriteLine("Nice pick!");
+                    break;
+
+                default:
+                    Console.WriteLine("Never heard of it");
+                    break;
+            }
+            #endregion
+
         }
     }
 }
