@@ -121,9 +121,19 @@ namespace Assignment03
 
             #region Question 11 
 
-            int page = 464;
-            string SizeLabel = page > 300 ? "Long Book" : "Short Book";
-            Console.WriteLine(SizeLabel);
+            //int page = 464;
+            //string SizeLabel = page > 300 ? "Long Book" : "Short Book";
+            //Console.WriteLine(SizeLabel);
+            #endregion
+
+            #region Questions 12
+
+            string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            for(int i = 0; i < books.Length; i++)
+            {
+                Console.WriteLine(i+1 + ": " + books[i]);
+            }
+
             #endregion
 
 
