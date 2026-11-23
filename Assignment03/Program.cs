@@ -75,18 +75,28 @@ namespace Assignment03
 
             #region Question 8
 
-            int Pages = 300;
-            if ( Pages > 300)
+            //int Pages = 300;
+            //if ( Pages > 300)
            
-                Console.WriteLine("Long Book");
-            else if 
-                (Pages < 300)
-                Console.WriteLine("Short Book");
-            else
-                Console.WriteLine("Book is 300 pages.");
+            //    Console.WriteLine("Long Book");
+            //else if 
+            //    (Pages < 300)
+            //    Console.WriteLine("Short Book");
+            //else
+            //    Console.WriteLine("Book is 300 pages.");
 
 
 
+
+            #endregion
+
+            #region Question 9
+
+            int Pages = 464;
+            bool IsAvailable = true;
+            if (Pages > 300 && IsAvailable)
+                Console.WriteLine("Long Book and Available");
+           
 
             #endregion
         }
