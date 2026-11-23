@@ -56,10 +56,19 @@ namespace Assignment03
 
             #region Question 6
 
+            //string Title = "Clean Code";
+            //int Pages = 464;
+
+            //string Sentence = $"Book: {Title}, Pages: {Pages}";
+            //Console.WriteLine(Sentence);
+
+            #endregion
+
+            #region Question 7
+
             string Title = "Clean Code";
             int Pages = 464;
-
-            string Sentence = $"Book: {Title}, Pages: {Pages}";
+            string Sentence = string.Format("Book: {0} - Pages: {1}", Title, Pages);
             Console.WriteLine(Sentence);
 
             #endregion
