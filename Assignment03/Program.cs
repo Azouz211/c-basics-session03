@@ -35,13 +35,22 @@ namespace Assignment03
 
             #region Question 4 
 
-            StringBuilder sb = new StringBuilder();
-            sb.Append("Book List");
-            sb.Append(" - Updated");
+            //StringBuilder sb = new StringBuilder();
+            //sb.Append("Book List");
+            //sb.Append(" - Updated");
 
-            sb.Replace("Book List", "Library");
+            //sb.Replace("Book List", "Library");
 
-            Console.WriteLine(sb);
+            //Console.WriteLine(sb);
+
+            #endregion
+
+            #region Question 5
+
+            string Title = "Clean Code";
+            int Pages = 464;
+            string Sentence = "Book: " + Title + ", Pages: " + Pages;
+            Console.WriteLine(Sentence);
 
             #endregion
         }
