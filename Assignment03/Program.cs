@@ -66,10 +66,27 @@ namespace Assignment03
 
             #region Question 7
 
-            string Title = "Clean Code";
-            int Pages = 464;
-            string Sentence = string.Format("Book: {0} - Pages: {1}", Title, Pages);
-            Console.WriteLine(Sentence);
+            //string Title = "Clean Code";
+            //int Pages = 464;
+            //string Sentence = string.Format("Book: {0} - Pages: {1}", Title, Pages);
+            //Console.WriteLine(Sentence);
+
+            #endregion
+
+            #region Question 8
+
+            int Pages = 300;
+            if ( Pages > 300)
+           
+                Console.WriteLine("Long Book");
+            else if 
+                (Pages < 300)
+                Console.WriteLine("Short Book");
+            else
+                Console.WriteLine("Book is 300 pages.");
+
+
+
 
             #endregion
         }
